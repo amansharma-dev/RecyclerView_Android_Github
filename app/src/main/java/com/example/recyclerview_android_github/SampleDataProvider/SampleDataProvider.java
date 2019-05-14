@@ -15,26 +15,33 @@ public class SampleDataProvider {
         dataItemList = new ArrayList<>();
         stringDataItemMap = new HashMap<>();
 
-        addItem(new DataItem(null,"Banana",5.99,"This is Sticker is inspired from Banana","one.png"));
-        addItem(new DataItem(null,"Fries",9.99,"This is Sticker is inspired from Fries","two.png"));
-        addItem(new DataItem(null,"Cat",7.99,"This is Sticker is inspired from Cat","three.png"));
-        addItem(new DataItem(null,"Heart",7.99,"This is Sticker is inspired from Heart","four.png"));
-        addItem(new DataItem(null,"Electric Bolt",5.99,"This is Sticker is inspired from Electric Bolt","five.png"));
-        addItem(new DataItem(null,"Alien",5.99,"This is Sticker is inspired from Alien","six.png"));
+        addItem(new DataItem(null,"Banana",5.99,"This Sticker is inspired from Banana","one.png"));
+        addItem(new DataItem(null,"Fries",9.99,"This Sticker is inspired from Fries","two.png"));
+        addItem(new DataItem(null,"Cat",7.99,"This Sticker is inspired from Cat","three.png"));
+        addItem(new DataItem(null,"Heart",7.99,"This Sticker is inspired from Heart","four.png"));
+        addItem(new DataItem(null,"Electric Bolt",5.99,"This Sticker is inspired from Electric Bolt","five.png"));
+        addItem(new DataItem(null,"Alien",5.99,"This Sticker is inspired from Alien","six.png"));
 
-        addItem(new DataItem(null,"Banana",5.99,"This is Sticker is inspired from Banana","one.png"));
-        addItem(new DataItem(null,"Fries",9.99,"This is Sticker is inspired from Fries","two.png"));
-        addItem(new DataItem(null,"Cat",7.99,"This is Sticker is inspired from Cat","three.png"));
-        addItem(new DataItem(null,"Heart",7.99,"This is Sticker is inspired from Heart","four.png"));
-        addItem(new DataItem(null,"Electric Bolt",5.99,"This is Sticker is inspired from Electric Bolt","five.png"));
-        addItem(new DataItem(null,"Alien",5.99,"This is Sticker is inspired from Alien","six.png"));
+        addItem(new DataItem(null,"Banana",5.99,"This Sticker is inspired from Banana","one.png"));
+        addItem(new DataItem(null,"Fries",9.99,"This Sticker is inspired from Fries","two.png"));
+        addItem(new DataItem(null,"Cat",7.99,"This Sticker is inspired from Cat","three.png"));
+        addItem(new DataItem(null,"Heart",7.99,"This Sticker is inspired from Heart","four.png"));
+        addItem(new DataItem(null,"Electric Bolt",5.99,"This Sticker is inspired from Electric Bolt","five.png"));
+        addItem(new DataItem(null,"Alien",5.99,"This Sticker is inspired from Alien","six.png"));
 
-        addItem(new DataItem(null,"Banana",5.99,"This is Sticker is inspired from Banana","one.png"));
-        addItem(new DataItem(null,"Fries",9.99,"This is Sticker is inspired from Fries","two.png"));
-        addItem(new DataItem(null,"Cat",7.99,"This is Sticker is inspired from Cat","three.png"));
-        addItem(new DataItem(null,"Heart",7.99,"This is Sticker is inspired from Heart","four.png"));
-        addItem(new DataItem(null,"Electric Bolt",5.99,"This is Sticker is inspired from Electric Bolt","five.png"));
-        addItem(new DataItem(null,"Alien",5.99,"This is Sticker is inspired from Alien","six.png"));
+        addItem(new DataItem(null,"Banana",5.99,"This Sticker is inspired from Banana","one.png"));
+        addItem(new DataItem(null,"Fries",9.99,"This Sticker is inspired from Fries","two.png"));
+        addItem(new DataItem(null,"Cat",7.99,"This Sticker is inspired from Cat","three.png"));
+        addItem(new DataItem(null,"Heart",7.99,"This Sticker is inspired from Heart","four.png"));
+        addItem(new DataItem(null,"Electric Bolt",5.99,"This Sticker is inspired from Electric Bolt","five.png"));
+        addItem(new DataItem(null,"Alien",5.99,"This Sticker is inspired from Alien","six.png"));
+
+        addItem(new DataItem(null,"Banana",5.99,"This Sticker is inspired from Banana","one.png"));
+        addItem(new DataItem(null,"Fries",9.99,"This Sticker is inspired from Fries","two.png"));
+        addItem(new DataItem(null,"Cat",7.99,"This Sticker is inspired from Cat","three.png"));
+        addItem(new DataItem(null,"Heart",7.99,"This Sticker is inspired from Heart","four.png"));
+        addItem(new DataItem(null,"Electric Bolt",5.99,"This Sticker is inspired from Electric Bolt","five.png"));
+        addItem(new DataItem(null,"Alien",5.99,"This Sticker is inspired from Alien","six.png"));
     }
 
     private static void addItem(DataItem item){

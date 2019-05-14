@@ -1,13 +1,18 @@
 package com.example.recyclerview_android_github.Model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.UUID;
 
-public class DataItem {
+public class DataItem implements Parcelable {
     private String stickerId;
     private String stickerName;
     private double stickerPrice;
     private String stickerDescription;
     private String stickerImage;
+
+
 
     @Override
     public String toString() {
@@ -72,4 +77,38 @@ public class DataItem {
         this.stickerDescription = stickerDescription;
         this.stickerImage = stickerImage;
     }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(this.stickerId);
+        dest.writeString(this.stickerName);
+        dest.writeDouble(this.stickerPrice);
+        dest.writeString(this.stickerDescription);
+        dest.writeString(this.stickerImage);
+    }
+
+    protected DataItem(Parcel in) {
+        this.stickerId = in.readString();
+        this.stickerName = in.readString();
+        this.stickerPrice = in.readDouble();
+        this.stickerDescription = in.readString();
+        this.stickerImage = in.readString();
+    }
+
+    public static final Parcelable.Creator<DataItem> CREATOR = new Parcelable.Creator<DataItem>() {
+        @Override
+        public DataItem createFromParcel(Parcel source) {
+            return new DataItem(source);
+        }
+
+        @Override
+        public DataItem[] newArray(int size) {
+            return new DataItem[size];
+        }
+    };
 }
